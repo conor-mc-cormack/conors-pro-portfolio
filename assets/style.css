@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+  font-family: cursive;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* smooth scroll effect */
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+/* header style starts */
+
+header {
+  padding: 20px 20px;
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url("./images/port-img.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: bolder;
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+header a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header nav {
+  margin: 10px 0;
+}
+
+header nav ul {
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  padding: 15px 25px;
+  font-weight: normal;
+  font-size: 1.75vw;
+}
+
+header nav ul li a:hover {
+  color: orange;
+}
+
+/* header style ends */
+
+.section-heading {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+/* hero style starts */
+
+#hero {
+  background-image: url("./images/port-img.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  height: 200px;
+}
+
+/* hero style ends */
+
+/* about me article style starts */
+
+.container-me {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-me div {
+  text-align: center;
+}
+
+/* about me article style ends */
+
+/* my work style starts */
+
+.container1 {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container1 div {
+  border: 5px solid grey;
+  background: grey;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.container2 div {
+  border: 5px solid grey;
+  padding: 50px;
+
+  background: grey;
+}
+
+/* my work style ends */
+
+/* contact me style starts */
+
+.contact h2 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.contact {
+  padding: 20px 20px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.contact ul {
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.contact nav {
+  font-size: 1.75vw;
+  display: inline;
+  text-align: center;
+}
+
+.contact nav ul li {
+  margin: 0 40px;
+  list-style: none;
+  display: inline;
+}
+
+.contact nav ul li a:hover {
+  color: orange;
+}
+
+/* contact me style ends */
+
+footer {
+  padding: 20px;
+}
