@@ -124,7 +124,7 @@ header nav ul li a:hover {
 
 .container2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
@@ -165,14 +165,13 @@ header nav ul li a:hover {
 
 .contact nav {
   font-size: 1.75vw;
-  display: inline;
+
   text-align: center;
 }
 
 .contact nav ul li {
   margin: 0 40px;
   list-style: none;
-  display: inline;
 }
 
 .contact nav ul li a:hover {
@@ -181,6 +180,37 @@ header nav ul li a:hover {
 
 /* contact me style ends */
 
+/* footer style starts */
+
 footer {
   padding: 20px;
+}
+
+/* footer style ends */
+
+/* media query starts */
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  .contact nav {
+    font-size: 20px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+} */
+
+@media screen and (max-width: 500px) {
+  .run-buddy-image {
+    width: 5px;
+    height: 5px;
+  }
 }
